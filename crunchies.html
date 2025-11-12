@@ -37,8 +37,9 @@
       >
         Order Now
       </button>
-      <div class="text-[red]">
-        <i class="bi bi-cart3"></i>
+      <div class="text-[red] flex gap-7">
+        <i class="bi bi-cart3 text-2xl"></i>
+        <i class="bi bi-list text-3xl"></i>
       </div>
     </header>
 
@@ -90,42 +91,181 @@
 
       <section class="grid grid-cols-3 gap-10 pt-4">
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/Food-min_zhoyip.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-70 bg-[url('/Crunchies-images/Food-min_zhoyip.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl mt-25">Food</p>
+        </div>
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/pp.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-72 bg-[url('/Crunchies-images/pp.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl">Protein</p>
+        </div>
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/Pastries-min_ov0lj2.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-72 bg-[url('/Crunchies-images/Pastries-min_ov0lj2.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl">Pastries</p>
+        </div>
 
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/Cakes-min_rgqujz.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-72 bg-[url('/Crunchies-images/Cakes-min_rgqujz.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl">Cakes</p>
+        </div>
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/Sharwama-min_botuhf.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-72 bg-[url('/Crunchies-images/Sharwama-min_botuhf.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl">Shawarma</p>
+        </div>
         <div
-          class="h-52 w-72 bg-[url('/Crunchies-images/Bread-min_brgaeo.jpg')] rounded-md bg-cover bg-no-repeat"
-        ></div>
+          class="h-40 w-72 bg-[url('/Crunchies-images/Bread-min_brgaeo.jpg')] rounded-md bg-cover bg-no-repeat"
+        >
+          <p class="font-bold text-white text-4xl">Bread</p>
+        </div>
       </section>
       <button
-        class="border-[red] font-bold bg-[red] mt-10 rounded-md text-white px-8 py-3 cursor-pointer"
+        class="border-[red] font-bold bg-[red] mt-10 rounded-md text-white px-8 py-3 cursor-pointer hover:bg-black"
       >
         See More
       </button>
     </section>
 
-    <section class="bg-[red] mt-90 flex justify-center h-50vh gap-5">
-      <div class="h-70vh w-70vw">
-        <img src="Crunchies-images/seee-removebg-preview.png" alt="" />
+    <section class="bg-[red] mt-90 flex justify-center gap-5">
+      <div class="mt-15">
+        <img
+          src="Crunchies-images/seee-removebg-preview.png"
+          alt=""
+          width="250px "
+        />
       </div>
-      <div>
-        <h1 class="font-bold text-7xl text-white">Order on the <br />Go!</h1>
+      <div class="mt-20">
+        <h1 class="font-bold text-5xl text-white">Order on the <br />Go!</h1>
         <br />
-        <p class="font-semibold text-white text-3xl">
+        <p class="font-semibold text-white">
           Our mobile apps are now available on your device's app store
         </p>
+
+        <div class="flex gap-5 pt-3 text-center">
+          <div class="bg-[black] text-white rounded-md px-5 py-1">
+            <p class="text-sm">Android App on</p>
+            <i class="bi bi-google-play"></i>
+            <p class="font-bold">Google Play</p>
+          </div>
+          <div class="bg-[black] text-white rounded-md px-5 py-1">
+            <p class="text-sm">Download on the</p>
+            <i bi bi-apple></i>
+            <p class="font-bold">App Store</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="flex flex-col items-center pt-10">
+      <h1 class="font-bold text-center text-4xl text-[red]">About Us</h1>
+      <div class="w-[5%] border-[3px] border-[red] mt-2 rounded-md"></div>
+
+      <section class="flex gap-15 justify-center ml-30 mt-10">
+        <div>
+          <p class="font-semibold">
+            Crunchies fried Chicken is a first-grade quick service restaurant
+            that offers a variety of quality fast food products and first-class
+            services. We are currently spread across the South-South, South-East
+            and South-West regions of Nigeria, with over 20 years of experience.
+            <br /><br />We have carved the niche of excellence in the fast food
+            <br />
+            marked with a service per excellence acquired from <br />
+            interacting with our valued customers.
+          </p>
+          <button
+            class="bg-[red] rounded-md text-white mt-5 p-2 cursor-pointer"
+          >
+            Read more
+          </button>
+        </div>
+
+        <div>
+          <img
+            src="Crunchies-images/About_US-min.webp"
+            alt=""
+            height="100%"
+            width="80%"
+            class="rounded-2xl"
+          />
+        </div>
+      </section>
+    </section>
+
+    <section class="bg-[pink] h-50vh mt-40 flex justify-center gap-10 py-10">
+      <div>
+        <div
+          class="h-80 w-110 bg-[url('/Crunchies-images/OFFERS-min.webp')] bg-cover bg-no-repeat mb-12 cursor-pointer"
+        ></div>
+        <div
+          class="h-80 w-110 bg-[url('/Crunchies-images/CAREERS-min.webp')] rounded-md bg-cover bg-no-repeat mb-12 cursor-pointer"
+        ></div>
+      </div>
+
+      <div>
+        <div
+          class="h-80 w-110 bg-[url('/Crunchies-images/FANCLUB-min.webp')] rounded-md bg-cover bg-no-repeat mb-12 cursor-pointer"
+        ></div>
+        <div
+          class="h-80 w-110 bg-[url('/Crunchies-images/blog-min.webp')] rounded-md bg-cover bg-no-repeat mb-12 cursor-pointer"
+        ></div>
+      </div>
+    </section>
+
+    <section class="bg-[#ffc0cbc0] flex flex-col items-center">
+      <div
+        class="bg-[url('/Crunchies-images/Newsletter-min.webp')] bg-cover bg-no-repeat w-70 h-70 rounded-full mt-20"
+      ></div>
+      <p class="font-bold text-3xl text-black my-5">
+        Subscribe to our Newsletter
+      </p>
+      <p class="mb-5">Be the first to get lucky on our amazing offers</p>
+      <div class="bg-white rounded-3xl w-50% flex gap-5 mb-5">
+        <div>
+          <input class="pr-100 p-5 border-0 rounded-3xl " type="email" placeholder="Email Address" />
+        </div>
+        <button class="bg-[red] rounded-3xl p-4">Subscribe Now</button>
+      </div>
+    </section>
+
+    <section class="h-[100vh] bg-[red] flex gap-30">
+      <div>
+        <figure
+          class="bg-[url('/Crunchies-images/logo-white.webp')] w-30 h-30 bg-cover bg-no-repeat"
+        ></figure>
+        <figcaption>
+          <h1 class="font-bold text-white text-3xl">Opening <br> Hours</h1>
+          <p>Mondays to Saturdays</p>
+          <p>7:00 Am to 9:00PM</p><br>
+          <h1>Contact Us</h1>
+          <p>customercare@crunchiesonline.com</p>
+          <p>09062439146, 08098242522</p>
+        </figcaption>
+      </div>
+      <div>
+        <h1 class="">Quick Navigation</h1>
+        <p>Careers</p>
+        <p>Fan Club</p>
+        <p>Offers</p>
+        <p>Privacy Policy</p>
+        <p>Terms and Conditions</p><br>
+        <h1>Find Us Here</h1>
+        <p>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-facebook"></i>
+          <i class="bi bi-linkedin"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-instagram"></i>
+          <i class="bi bi-tiktok"></i>
+        </p>
+      </div><br>
+
+      <div>
+        <h1>Tell us how We are doing...</h1>
+        <p>Your feedback is valuable to us</p>
+        <button>Submut Feedback</button>
       </div>
     </section>
   </body>
